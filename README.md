@@ -5,9 +5,9 @@ TCC - Curso técnico em TÉCNICO EM INFORMÁTICA
 
 ### Objetivo
 
-[x] Desenvolver um sistema dinâmico e com visual agradável que expresse da melhor forma os pilares da marca. 
-[x] Um sistema que agrade também a visão e o responda com certa rapidez na hora de selecionar e realizar vendas dos produtos desejados. 
-[x] Que seja eficiente e seguro tanto para a marca como para o cliente, protegendo seus dados e facilitando no gerenciamento do estoque.
+- [x] Desenvolver um sistema dinâmico e com visual agradável que expresse da melhor forma os pilares da marca. 
+- [x] Um sistema que agrade também a visão e o responda com certa rapidez na hora de selecionar e realizar vendas dos produtos desejados. 
+- [x] Que seja eficiente e seguro tanto para a marca como para o cliente, protegendo seus dados e facilitando no gerenciamento do estoque.
 
 ### Tecnologias usadas 
 [x] Linguagem: JAVA, JAVAWEB, JavaScript, SQL
