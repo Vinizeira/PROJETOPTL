@@ -37,10 +37,9 @@ TCC - Curso técnico em TÉCNICO EM INFORMÁTICA
 >Nessa Página realizaremos todos os crud com o produto da loja.
 
 
-### Esse sistema no momento está em desenvolvimento, devido a falta de tempo não pude continuar desenvolmendo mais</br>
-### funções.</br>
-### É um sistema Orientado ao Objeto aplicado em ambiente web</br>
-### com conexão com banco de dados e servidor local
+### Esse sistema no momento está em desenvolvimento, devido a falta de tempo não pude continuar desenvolmendo mais funções.</br>
+É um sistema Orientado ao Objeto aplicado em ambiente web</br>
+com conexão com banco de dados e servidor local ###
 
 ## Sobre mim 
 21 Anos </br>
