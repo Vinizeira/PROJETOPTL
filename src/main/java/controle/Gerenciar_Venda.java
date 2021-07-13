@@ -7,22 +7,20 @@ package controle;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import model.Produto;
-import model.ProdutoDAO;
 import model.Venda;
-import model.VendaProduto;
+import model.VendaDAO;
 
 /**
  *
  * @author viniz
  */
-public class Gerenciar_Carrinho extends HttpServlet {
+public class Gerenciar_Venda extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -41,47 +39,34 @@ public class Gerenciar_Carrinho extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Gerenciar_Carrinho</title>");            
+            out.println("<title>Servlet Gerenciar_Venda</title>");            
             out.println("</head>");
             out.println("<body>");
             
             HttpSession session = request.getSession();
+            String mensagem="";
                 try {
-                Venda v = (Venda) session.getAttribute("venda");
-                ArrayList<VendaProduto> carrinho = v.getCarrinho();
-                String acao = request.getParameter("acao");
-                ProdutoDAO pDAO = new ProdutoDAO();
-                    if (acao.equals("add")) {
-                         Produto p = new Produto();
-                         int idProduto = Integer.parseInt(request.getParameter("idProduto"));
-                         p = pDAO.getCarregaPorID(idProduto);
-                         int qtd = Integer.parseInt(request.getParameter("qtd"));
-                         VendaProduto vp = new VendaProduto();
-                         vp.setProduto(p);
-                         vp.setQtd(qtd);
-                         vp.setValorVendido(p.getPreco());
-                         carrinho.add(vp);
-                         v.setCarrinho(carrinho);
-                         session.setAttribute("venda", v);
-                         response.sendRedirect("form_venda.jsp?acao=c");            
-                         
-                    } else if(acao.equals("del")){
-                        int index = Integer.parseInt(request.getParameter("index"));
-                        carrinho.remove(index);
-                        v.setCarrinho(carrinho);
-                        session.setAttribute("venda", v);
-                        response.sendRedirect("form_finalizar_venda.jsp");
-                        
-                    }
-                
-                
+                    Venda v  = (Venda) session.getAttribute("venda");
+                    VendaDAO vDAO = new VendaDAO();
+                        if (vDAO.registrar(v)) {
+                        mensagem="Venda realizada com sucesso";
+                    }else{
+                         mensagem="Venda realizada";   
+                        }
+                    
                 
             } catch (Exception e) {
                 out.print(e);
             }
+                
+        out.println("<script type='text/javascript'>");
+        out.println("alert('"+mensagem+"');");
+        out.println("location.href='listar_venda.jsp';");
+        out.println("</script>");
             
+                
             
-            out.println("<h1>Servlet Gerenciar_Carrinho at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet Gerenciar_Venda at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -100,6 +85,8 @@ public class Gerenciar_Carrinho extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
+       
+        
     }
 
     /**
