@@ -39,8 +39,8 @@ TCC - Curso técnico em TÉCNICO EM INFORMÁTICA
 
 ### Este sistema no momento está em desenvolvimento, devido a falta de tempo não pude continuar desenvolmendo mais funções e implementações para ele.</br>
 ### É um sistema Orientado ao Objeto aplicado em ambiente web com conexão com banco de dados e servidor local.
-### A ideia é de um sistema CRUD hospedado em uma nuvem, com o cliente podendo acessa diretamente pelo site ou,
-### Até o funcionário na propria loja poder gerenciar o estoque e vender tanto online quanto pessoalmente em seu local de trabalho.
+### A ideia é de um sistema CRUD hospedado em uma nuvem, com o cliente podendo acessa diretamente pelo site.
+### E também o funcionário na propria loja poder gerenciar o estoque e vender tanto online quanto pessoalmente em seu local de trabalho.
  
 ## Sobre mim 
 21 Anos </br>
