@@ -37,4 +37,16 @@ TCC - Curso técnico em TÉCNICO EM INFORMÁTICA
 >Nessa Página realizaremos todos os crud com o produto da loja.
 
 
+- Esse sistema no momento está em desenvolvimento, devido a falta de tempo não pude continuar desenvolmendo mais
+- funções. 
+- É um sistema Orientado ao Objeto aplicado em ambiente web
+- com conexão com banco de dados e servidor local
 
+##Sobre mim 
+- 21 Anos
+- Brasilia
+- 2º Semestre: Análise e Desenvolvimento de Sistemas
+- Formação: Tecnico em informatica pela ETB - Escola técnica de Brasilia 
+- Certificaçõs Alura: https://cursos.alura.com.br/user/duarte-ti1924
+- Linkedin: https://www.linkedin.com/in/vinicius-duarte-377604211/
+ 
