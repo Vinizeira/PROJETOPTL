@@ -1,0 +1,185 @@
+#TituloPtl{
+    color: green;
+    font-weight: bolder;
+}
+
+.marcas{
+    border-color: white;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+
+#img1{ 
+    width: 590px;
+    height: 500px;
+    margin-left:-30px;
+    
+}
+
+
+#img4{
+   width: 740px;
+   height: 500px;
+   margin-left:-30px;
+}
+
+
+div.img1{
+     float: left;
+    display: inline-block;
+    background-color: black;
+    width: 500px;
+     margin-left: 30px;
+ 
+}
+
+div.img2{
+    display: inline-block;
+    background-color: black;
+    float: right;
+}
+
+/*.galeria{
+    overflow: hidden;
+        
+}
+
+.foto{
+    
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+       
+}
+
+@keyframes animacao {
+    25%{
+        opacity: 1
+         tranform:scale(1.1,1.1);   
+    }
+    50%{
+       opacity: 0; 
+    }
+}*/
+
+
+/*.zoom{
+  display: block;
+  float: left;
+  background-color: green;
+  transition: transform .5s ease;  Animation 
+  transform-style: preserve-3d;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+
+
+.zoom:hover {
+  transform: scale(1.1);  port) 
+}*/
+
+
+
+#TituloTable{
+    text-align: center;
+     text-shadow: 2px 2px 5px green;
+     color: black;
+}
+
+#linhaTitulo{
+    background-color: #255625;
+    width: 90%;
+    height: 1px;
+    margin-left: 62px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#videoYT{
+    margin-left:350px; 
+    
+}
+
+#TituloVideo{
+     text-align: center;
+     text-shadow: 2px 2px 5px green;
+     color: black;
+     
+}
+
+#quemSomos{
+   display: inline-block;
+   width: 650px;
+   height: 500px;
+    
+}
+
+#msgQuemSomosDireita{
+   margin-left: -10px;
+    margin-right: 70px;
+    width: 600px;
+   height: 400px;
+   float: right;    
+    padding: 15px;  
+   display: inline-block;
+   font-size: 20px;
+    text-shadow: 2px 2px 5px green;
+    color: black;
+}
+
+
+#TituloSigam{
+    color: black;
+   text-align: center;
+     text-shadow: 2px 2px 5px green;
+      
+}
+.sigam{
+   text-align: center;
+}
+
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+
+

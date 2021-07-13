@@ -1,0 +1,43 @@
+.menu ul li{
+    color: white;
+    background-color: black;
+    margin: 0;
+    list-style: none;
+    float: right;
+    font-family: sans-serif;
+    border-right: none;
+    background-color: white; 
+    
+   
+    margin-top:-10px;
+}
+
+.menu ul li a {
+    color: white;
+    background-color: black;
+    float: right;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+
+    margin-top:-10px;
+    
+       
+}
+
+.menu ul li a :hover {
+    background-color: #FFF;
+    }
+    
+.menu ul{
+  color: white;
+ background-color: black;
+width: 100%;
+padding: 0;
+float: right;
+border: none;
+border-radius: 8px; 
+margin-top:-10px;
+            }
+

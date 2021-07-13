@@ -1,0 +1,82 @@
+
+
+div.formulario{
+   margin-left: 400px;
+   width: 50%;
+    
+ border-width: 10px;
+   text-align: center;
+ font-weight: bold;
+  
+}
+
+div.formularioPerfil{
+    margin-top: 100px;
+   margin-left: 400px;
+   width: 50%;
+   text-shadow: 2px 2px 5px green;
+     color: black;
+ border-width: 10px;
+   text-align: center;
+
+  
+}
+
+
+
+#inNome{
+    margin-left: 2px;
+     
+}
+
+#labelForm{
+    margin-left:190px;
+}
+#labelFormPerfil{
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+
+#labelFornecedor{
+    margin-left: 150px;
+   font-weight: bold;
+    
+}
+
+#tituloFormProduto{
+    text-shadow:2px 1px #ffffff;
+ 
+    font-family: sans-serif;
+    margin-right: 170px;
+     text-shadow: 2px 2px 5px green;
+     color: black;
+}
+
+#form_tituloUsuario{
+    text-shadow:2px 1px #ffffff;
+ 
+    font-family: sans-serif;
+    margin-left: -150px;
+}
+
+#form_titulo_Cliente{
+   ext-shadow:2px 1px #ffffff;
+ 
+    font-family: sans-serif;
+    margin-left: -150px 
+}
+
+#tituloFormPerfil{
+    margin-bottom: 25px;
+    margin-right: 160px;
+}
+
+#btnsForm_menu_perfil{
+ margin-left: 15px;
+}
+
+
+
+
+
