@@ -32,7 +32,7 @@ TCC - Curso técnico em TÉCNICO EM INFORMÁTICA
 ![form_login](https://raw.githubusercontent.com/Vinizeira/PROJETOPTL/main/Telas/login.png)
 
 
-- Produtos
+## Produtos
 ![crud_produtos](https://raw.githubusercontent.com/Vinizeira/PROJETOPTL/main/Telas/Produtos.png)
 >Nessa Página realizaremos todos os crud com o produto da loja.
 
@@ -42,8 +42,8 @@ funções.
 É um sistema Orientado ao Objeto aplicado em ambiente web
 com conexão com banco de dados e servidor local
 
-## Sobre mim 
-- 21 Anos
+#### Sobre mim 
+* 21 Anos
 - Brasilia
 - 2º Semestre: Análise e Desenvolvimento de Sistemas
 - Formação: Tecnico em informatica pela ETB - Escola técnica de Brasilia 
