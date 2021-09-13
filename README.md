@@ -26,9 +26,15 @@ TCC - Curso técnico em TÉCNICO EM INFORMÁTICA
 - jDK 8 https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
 - Eclipse https://www.eclipse.org/downloads/
 - WampServer https://www.wampserver.com/en/
+- Apache Tomcat 9 https://tomcat.apache.org/download-90.cgi
 - MySqlConnector 5.1.4-jar  https://downloads.mysql.com/archives/c-j/
 - JSTL1.2.jar https://mvnrepository.com/artifact/javax.servlet/jstl/1.2
 - Javax Servelet api https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+
+
+[![Como Instalar](https://raw.githubusercontent.com/Vinizeira/PROJETOPTL/main/Telas/login.png)](https://www.youtube.com/embed/SdpznAnWwQw)
+
+
 
 # Interface
 >Tela Principal
